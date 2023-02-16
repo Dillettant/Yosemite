@@ -60,7 +60,7 @@ def get_remaining_ticket(date):
         print("Remaining tickets {} for {}.".format(threshold_tickets_remaining, date))
 
 while True:
-    for date in ["2023-02-18", "2023-02-19"]:
+    for date in ["2023-02-17","2023-02-18", "2023-02-19"]:
         get_remaining_ticket(date)
     sys.stdout.flush()
     time.sleep(5)
